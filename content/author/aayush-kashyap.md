@@ -13,6 +13,6 @@ social:
   link: "https://linkedin.com/TheKing0x9"
 ---
 
-Maecenas sit amet purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis.
-
-Purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis.
+I'm a professional game developer who enjoys designing and programming 2D Games.
+Specialized in development of gameplay systems and experienced in developing 
+games in a wide variety of 2D game genres.
