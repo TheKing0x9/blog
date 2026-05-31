@@ -1,6 +1,6 @@
 # Base URL used when generating links to your pages
 # Set to the URL for your site
-baseURL = "https://theking0x9.github.io/"
+baseURL = "https://theking0x9.github.io/blog/"
 
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
@@ -27,7 +27,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
   # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
   # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
-  favicon = "images/favicon.png"
+  favicon = "images/favicon.svg"
 
   # These "images" are used for the structured data templates. This will show up, when
   # services like Twitter or Slack want to generate a preview of a link to your site.
