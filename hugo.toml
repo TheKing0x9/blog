@@ -6,8 +6,9 @@ baseURL = "https://theking0x9.github.io/blog/"
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "Blog"
+title = "Skybound"
 author = "Aayush Kashyap"
+email = "theking0x9@proton.me"
 copyright = "Copyright © 2026, Aayush Kashyap."
 languageCode = "en-US"
 
@@ -64,3 +65,7 @@ ignoreErrors = ["error-disable-taxonomy"]
     lineNos = true
     lineNumbersInTable = false
     codeFences = true
+
+[params.author]
+name = "Aayush Kashyap"
+email = "theking0x9@proton.me"

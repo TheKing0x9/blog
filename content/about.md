@@ -1,7 +1,8 @@
 +++
 title = "About me"
 menu = "main"
-weight = 10
+weight = 2 
+hideReply=true
 +++
 
 # About Me
