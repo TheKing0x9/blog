@@ -57,6 +57,9 @@ ignoreErrors = ["error-disable-taxonomy"]
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
   # dateFormat = "2006-01-02"
 
+  # Enable this line to enable analytics via GoatCounter.
+  analytics = true
+
 # Configure markup highlighter to match "Bearblog" aesthetics, see
 # https://gohugo.io/configuration/markup/#highlight
 [markup]

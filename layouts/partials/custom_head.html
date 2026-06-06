@@ -4,3 +4,10 @@
     href="https://cdn.jsdelivr.net/npm/katex/dist/katex.css"
 />
 {{ end }}
+
+{{ if (.Param "analytics") }}
+	<script
+		data-goatcounter="https://theking0x9.goatcounter.com/count"
+		async
+		src="{{ "js/count.js" | relURL }}"></script>
+{{ end }}
