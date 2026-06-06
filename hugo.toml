@@ -60,11 +60,24 @@ ignoreErrors = ["error-disable-taxonomy"]
 # Configure markup highlighter to match "Bearblog" aesthetics, see
 # https://gohugo.io/configuration/markup/#highlight
 [markup]
-  [markup.highlight]
-    style = 'friendly'
-    lineNos = true
-    lineNumbersInTable = false
-    codeFences = true
+    [markup.highlight]
+        style = 'catppuccin-mocha'
+        lineNos = true
+        lineNumbersInTable = false
+        codeFences = true
+
+    # Enable the "passthrough" extension to allow custom delimiters for math expressions, see
+    # https://gohugo.io/content-management/markdown/#passthrough-extension
+      [markup.goldmark]
+        [markup.goldmark.extensions]
+          [markup.goldmark.extensions.passthrough]
+            enable = true
+            [markup.goldmark.extensions.passthrough.delimiters]
+              block = [['\[', '\]'], ['$$', '$$']]
+              inline = [['\(', '\)'], ['$', '$']]
+
+[minify]
+    minifyOutput = true
 
 [params.author]
 name = "Aayush Kashyap"
