@@ -240,8 +240,6 @@ The real lesson: understand your tools. Floating-point isn't broken—you just h
 
 **The case is closed.** The mystery of `0.1 + 0.2 ≠ 0.3` is solved. It wasn't a bug. It was the rules of the game, written in 1985 and unchanged because they work.
 
----
-
 [^1]: IEEE Standard 754-2019 for Floating-Point Arithmetic. Official standard document: https://ieeexplore.ieee.org/document/8766229
 
 [^2]: Wikipedia entry on Floating-Point Arithmetic: https://en.wikipedia.org/wiki/Floating-point_arithmetic
